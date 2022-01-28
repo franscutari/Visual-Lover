@@ -210,7 +210,7 @@ footer h6 {
   display: flex;
   width: 100%;
   height: 130px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   justify-content: center;
   align-items: center;
@@ -431,6 +431,22 @@ flex-direction: column;
  
   /*INDEX*/
 
+  .contenedorTitulo {
+    width: 78%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .contenedorTitulo h1 {
+    font-size: 63px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+
   .gridContainer{
     display: grid;
     height: auto;
@@ -546,6 +562,22 @@ footer {
 .menuPrecios div ul li{
    padding: 7px;
 }
+
+.footerPrecios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 42vh;
+  background-color: grey;
+}
+
+footer h6 {
+  padding-bottom: 10px;
+}
+
+
+
 }
 
 /*MEDIA QUERIES CELULAR*/
@@ -567,6 +599,23 @@ footer {
 footer {
   grid-area: footer;
 }
+
+
+.contenedorTitulo {
+  width: 78%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contenedorTitulo h1 {
+  font-size: 63px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 
 
 
@@ -706,5 +755,18 @@ footer {
 
 .menuPrecios div ul li{
    padding: 7px;
+}
+
+.footerPrecios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 40vh;
+  background-color: grey;
+}
+
+footer h6 {
+  padding-bottom: 10px;
 }
 }
