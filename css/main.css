@@ -161,7 +161,7 @@ footer {
   gap: 10px;
 }
 
-.imagenes .img1 .uno{
+.imagenes .img1{
   width: 28%;
   height: 270px;
   background-color: grey;
@@ -171,11 +171,11 @@ footer {
   background-repeat: no-repeat;
 }
 
-.uno:hover{
+.imagenes .img1:hover{
   transform: scale(1.2);
 }
 
-.imagenes .img2 .dos {
+.imagenes .img2 {
   width: 28%;
   height: 270px;
   background-color: grey;
@@ -185,11 +185,11 @@ footer {
   background-repeat: no-repeat;
 }
 
-.dos:hover{
+.imagenes .img2:hover{
   transform: scale(1.2);
 }
 
-.imagenes .img3 .tres {
+.imagenes .img3 {
   width: 28%;
   height: 270px;
   background-color: grey;
@@ -199,7 +199,7 @@ footer {
   background-repeat: no-repeat;
 }
 
-.tres:hover{
+.imagenes .img3:hover{
   transform: scale(1.2);
 }
 
