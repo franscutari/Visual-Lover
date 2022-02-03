@@ -562,6 +562,7 @@ footer {
     background-repeat: no-repeat;
   }
 
+
   /*PRECIOS*/
 
  
@@ -798,25 +799,29 @@ footer {
 
   /*PRECIOS*/
 
-  .gridContainerPrecios{
-    display: grid;
-      height: auto;
-      grid-template-rows: 150vh;
-      grid-template-areas: 
-      "contenedorPrecios"
+  .flexContainerPrecios{
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    width: 100%;
+    justify-content: center;
   }
-  
-  .containerPreciosTotal {
-    grid-area: contenedorPrecios;
+
+  .containerPreciosTotal{
+    display: flex;
+    width: 100%;
+    height: 2000px;
+    justify-content: center;
   }
 
   .contenedorPrecios{
-    display: flex;
+    display: none;
     width: 100%;
     height: 200px;
     color: white;
+    background-color: orange;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -824,16 +829,17 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1500px;
-    justify-content: space-evenly;
+    height: 100px;
+    justify-content: center;
     align-items: center;
+    gap: 75px;
 
 }
 
 .menuPrecios div{
     display: flex;
     width: 50%;
-    height: 400px;
+    height: 600px;
     background-color: rgb(255, 255, 255);
     color: black;
     justify-content: space-evenly;
@@ -844,7 +850,20 @@ footer {
 }
 
 .menuPrecios div ul li{
-   padding: 7px;
+   padding: 5px;
+}
+
+.footerPrecios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 42vh;
+  background-color: grey;
+}
+
+footer h6 {
+  padding-bottom: 10px;
 }
 
 .footerPrecios {
