@@ -1,0 +1,27 @@
+.contenedorImgPreguntas {
+    width: 100%;
+    height: 94.1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/dunder-Mifflin-building-the-office-where-location.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.contenedorPreguntas{
+  width: 100%;
+  height: 2200px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: flex-start;
+  font-size: 20px;
+  padding: 100px;
+}
+
+.contenedorPaddingPreguntas {
+  padding: 20px;
+  width: 60vh;
+}

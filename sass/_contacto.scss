@@ -1,0 +1,107 @@
+.flexContainerContacto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 828px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexContact{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+  }
+  
+  .textoContacto{
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      color: white;
+      height: 150px;
+      width: 100%;
+      text-align: center;
+  }
+  .textoContacto h3{
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      
+  }
+  
+  .bloqContactForm{
+      margin: 30px;
+      background-color: black;
+  }
+  
+  .labelForm{
+      font-size: 25px;
+  }
+  .labelForm label{
+      margin-left: 425px;
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      color: white;
+  }
+  .contactForm1{
+      height: 30px;
+      width: 60%;
+      margin: 10px 280px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .contactForm1 .campoContact{
+      height: 35px;
+      width: 68%;
+      margin: 30px 20px;
+      background-color: black;
+      text-align: start;
+      font-size: 1.0em;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+  }
+  
+  .contactForm2{
+      height: 200px;
+      width: 60%;
+      margin: 0px 280px;
+      display: flex;
+      justify-content: center;
+      text-align: start;
+  }
+  .contactForm2 .campoContact2{
+      height: 150px;
+      width: 68%;
+      margin: 0px 20px;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      text-align: start;
+      font-size: 1.0em;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      background-color: black;
+  }
+  .buttonsForm{
+      height: 100px;
+      width: 100%;
+      text-align: center;
+  }
+  .buttonsForm .buttonForm{
+      height: 40px;
+      width: 230px;
+      margin: 0px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      background:  rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+  }
+  

@@ -1,0 +1,113 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  /* TITULO CARROUSEL Y IMG 100VH */
+  
+  .carousel-inner img {
+    height: 94.1vh;
+    width: 100%;
+  }
+  
+  .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    height: 60%;
+    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 5px;
+    animation: fadeInDown;
+    animation-duration: 1s;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 60px;   
+  }
+
+  .ulMIO {
+    letter-spacing: 1px;
+  }
+
+  .texto {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagenes {
+    width: 60%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .imagenes .img1{
+    width: 28%;
+    height: 270px;
+    background-color: grey;
+    background: url(../img/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .imagenes .img1:hover{
+    transform: scale(1.2);
+  }
+  
+  .imagenes .img2 {
+    width: 28%;
+    height: 270px;
+    background-color: grey;
+    background: url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .imagenes .img2:hover{
+    transform: scale(1.2);
+  }
+  
+  .imagenes .img3 {
+    width: 28%;
+    height: 270px;
+    background-color: grey;
+    background: url(../img/4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .imagenes .img3:hover{
+    transform: scale(1.2);
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 140px;
+    background-color: grey;
+  }
+  
+  footer h6 {
+    padding-bottom: 10px;
+  }
+  
