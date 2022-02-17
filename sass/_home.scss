@@ -1,4 +1,4 @@
-
+@import "variables";
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: black;
+    background-color: map-get($colores, negroEspecial); // USO DE MAP
     color: white;
   }
   
@@ -20,7 +20,7 @@
   .carousel-caption {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: map-get($colores, blancoEspecial); // USO DE MAP
     text-align: center;
     height: 60%;
     justify-content: flex-end;
@@ -87,7 +87,6 @@
   .imagenes .img3 {
     width: 28%;
     height: 270px;
-    background-color: grey;
     background: url(../img/4.jpg);
     background-position: center;
     background-size: cover;
@@ -104,7 +103,7 @@
     align-items: flex-end;
     width: 100%;
     height: 140px;
-    background-color: grey;
+    background-color: map-get($colores: grisEspecial);
   }
   
   footer h6 {
