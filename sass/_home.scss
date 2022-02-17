@@ -65,6 +65,10 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .imagenes .img1 .extension:hover{
+    transform: scale(1.5);  // uso de Extend
+  }
   
   .imagenes .img1:hover{
     transform: scale(1.2);

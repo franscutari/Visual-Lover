@@ -106,4 +106,8 @@
       border-left: none;
       border-bottom: none;
   }
+
+  .botonNormal{
+      @include botonNormal;
+  }
   
