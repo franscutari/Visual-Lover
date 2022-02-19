@@ -31,22 +31,22 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #dfdfdf;
   text-align: center;
   height: 60%;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   letter-spacing: 5px;
   -webkit-animation: fadeInDown;
-  animation: fadeInDown;
+          animation: fadeInDown;
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .carousel-caption h1 {
@@ -65,14 +65,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .imagenes {
@@ -82,11 +82,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 }
 
@@ -102,12 +102,12 @@ body {
 
 .imagenes .img1 .extension:hover {
   -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .imagenes .img1:hover {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .imagenes .img2 {
@@ -122,7 +122,7 @@ body {
 
 .imagenes .img2:hover {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .imagenes .img3 {
@@ -136,7 +136,7 @@ body {
 
 .imagenes .img3:hover {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 footer {
@@ -144,11 +144,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 100%;
   height: 140px;
   background-color: gray;
@@ -176,11 +176,11 @@ footer h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: url(../img/3.jpg);
   background-position: center;
   background-size: cover;
@@ -195,14 +195,14 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
 }
 
@@ -217,8 +217,8 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: auto;
   width: 100%;
 }
@@ -231,11 +231,11 @@ footer h6 {
   height: 130px;
   color: white;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -246,17 +246,17 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   height: auto;
   color: #8c00ff;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .imgBlogSuperior {
@@ -266,10 +266,10 @@ footer h6 {
   width: 100%;
   height: 240px;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-item-align: center;
-  align-self: center;
+      align-self: center;
 }
 
 .imgBlog1 {
@@ -279,11 +279,11 @@ footer h6 {
   width: 20%;
   height: 240px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: url(../img/boda-en-noruega.jpg);
   background-position: center;
   background-size: cover;
@@ -297,11 +297,11 @@ footer h6 {
   width: 20%;
   height: 240px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: url(../img/boda-en-noruega.jpg);
   background-position: center;
   background-size: cover;
@@ -314,19 +314,19 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 20%;
   height: auto;
   color: white;
   -webkit-box-pack: top;
-  -ms-flex-pack: top;
-  justify-content: top;
+      -ms-flex-pack: top;
+          justify-content: top;
   gap: 15px;
   text-align: left;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -347,8 +347,8 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
   width: 100%;
 }
@@ -361,12 +361,12 @@ footer h6 {
   height: 200px;
   color: white;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .containerPreciosTotal {
@@ -375,8 +375,8 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 1000px;
 }
 
@@ -387,11 +387,11 @@ footer h6 {
   width: 100%;
   height: auto;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menuPrecios div {
@@ -403,15 +403,15 @@ footer h6 {
   background-color: white;
   color: black;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
 
@@ -437,11 +437,11 @@ footer h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: url(../img/dunder-Mifflin-building-the-office-where-location.jpg);
   background-position: center;
   background-size: cover;
@@ -456,12 +456,12 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: start;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   font-size: 20px;
   padding: 100px;
 }
@@ -488,16 +488,16 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   height: 828px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flexContact {
@@ -506,8 +506,8 @@ footer h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 70%;
   height: auto;
 }
@@ -517,11 +517,11 @@ footer h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   height: 150px;
   width: 100%;
@@ -558,11 +558,11 @@ footer h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
 
@@ -572,7 +572,7 @@ footer h6 {
   margin: 30px 20px;
   background-color: black;
   text-align: start;
-  font-size: 1em;
+  font-size: 1.0em;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -586,8 +586,8 @@ footer h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: start;
 }
 
@@ -598,7 +598,7 @@ footer h6 {
   margin-top: 10px;
   margin-bottom: 50px;
   text-align: start;
-  font-size: 1em;
+  font-size: 1.0em;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -633,11 +633,11 @@ footer h6 {
   height: 40px;
   padding-top: 40px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
   letter-spacing: 1px;
 }
@@ -659,7 +659,6 @@ footer h6 {
     height: 60.1vh;
     width: 100%;
   }
-
   .contenedorTitulo {
     width: 78%;
     height: 120px;
@@ -668,22 +667,20 @@ footer h6 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: white;
   }
-
   .contenedorTitulo h1 {
     font-size: 63px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-
   .texto {
     width: 100%;
     height: 1000px;
@@ -692,35 +689,33 @@ footer h6 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .imagenes {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 60%;
     height: 850px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 10px;
   }
-
   .imagenes .img1 {
     width: 58%;
     height: 270px;
@@ -730,7 +725,6 @@ footer h6 {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   .imagenes .img2 {
     width: 58%;
     height: 270px;
@@ -740,7 +734,6 @@ footer h6 {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   .imagenes .img3 {
     width: 58%;
     height: 270px;
@@ -750,7 +743,6 @@ footer h6 {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   /* BLOG */
   .contenedorImgBlog {
     width: 100%;
@@ -759,17 +751,16 @@ footer h6 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: url(../img/3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   /* PREGUNTAS */
   .contenedorImgPreguntas {
     width: 100%;
@@ -778,17 +769,16 @@ footer h6 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: url(../img/dunder-Mifflin-building-the-office-where-location.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   /*PRECIOS*/
   .flexContainerPrecios {
     display: -webkit-box;
@@ -796,15 +786,14 @@ footer h6 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: auto;
     width: 100%;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .containerPreciosTotal {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -812,10 +801,9 @@ footer h6 {
     width: 100%;
     height: 2000px;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .contenedorPrecios {
     display: none;
     width: 100%;
@@ -823,33 +811,31 @@ footer h6 {
     color: white;
     background-color: orange;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-
   .menuPrecios {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     height: 100px;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 75px;
   }
-
   .menuPrecios div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -859,41 +845,39 @@ footer h6 {
     background-color: white;
     color: black;
     -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
   }
-
   .menuPrecios div ul li {
     padding: 5px;
   }
-
   .footerPrecios {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     width: 100%;
     height: 42vh;
     background-color: grey;
   }
-
   footer h6 {
     padding-bottom: 10px;
   }
 }
+
 /*COLORES DE LA PAGINA*/
 /*
  @mixin inputHome {
@@ -910,7 +894,6 @@ footer h6 {
     height: 60.1vh;
     width: 100%;
   }
-
   .contenedorTitulo {
     width: 78%;
     height: 120px;
@@ -919,22 +902,20 @@ footer h6 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: white;
   }
-
   .contenedorTitulo h1 {
     font-size: 63px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-
   .navegacion {
     width: 476px;
     margin: 30px auto;
@@ -945,17 +926,14 @@ footer h6 {
     left: 0;
     right: 0;
   }
-
   .navegacion ul {
     list-style: none;
   }
-
   .menu > li {
     background-color: white;
     position: relative;
     display: inline-block;
   }
-
   .menu > li > a {
     display: block;
     padding: 15px 20px;
@@ -966,11 +944,9 @@ footer h6 {
     text-transform: uppercase;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-
   .menu li:hover .subMenu {
     display: block;
   }
-
   .texto {
     width: 100%;
     height: 1000px;
@@ -979,35 +955,33 @@ footer h6 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .imagenes {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 60%;
     height: 850px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 10px;
   }
-
   .imagenes .img1 {
     width: 58%;
     height: 270px;
@@ -1017,7 +991,6 @@ footer h6 {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   .imagenes .img2 {
     width: 58%;
     height: 270px;
@@ -1027,7 +1000,6 @@ footer h6 {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   .imagenes .img3 {
     width: 58%;
     height: 270px;
@@ -1037,7 +1009,6 @@ footer h6 {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   /* BLOG */
   .contenedorImgBlog {
     width: 100%;
@@ -1046,17 +1017,16 @@ footer h6 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: url(../img/3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   /* PREGUNTAS */
   .contenedorImgPreguntas {
     width: 100%;
@@ -1065,17 +1035,16 @@ footer h6 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: url(../img/dunder-Mifflin-building-the-office-where-location.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   /*PRECIOS*/
   .flexContainerPrecios {
     display: -webkit-box;
@@ -1083,15 +1052,14 @@ footer h6 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: auto;
     width: 100%;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .containerPreciosTotal {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1099,10 +1067,9 @@ footer h6 {
     width: 100%;
     height: 2000px;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .contenedorPrecios {
     display: none;
     width: 100%;
@@ -1110,33 +1077,31 @@ footer h6 {
     color: white;
     background-color: orange;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-
   .menuPrecios {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     height: 100px;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 75px;
   }
-
   .menuPrecios div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1146,60 +1111,56 @@ footer h6 {
     background-color: white;
     color: black;
     -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
   }
-
   .menuPrecios div ul li {
     padding: 5px;
   }
-
   .footerPrecios {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     width: 100%;
     height: 42vh;
     background-color: grey;
   }
-
   footer h6 {
     padding-bottom: 10px;
   }
-
   .footerPrecios {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     width: 100%;
     height: 40vh;
     background-color: grey;
   }
-
   footer h6 {
     padding-bottom: 10px;
   }
 }
+
 /*COLORES DE LA PAGINA*/
 /*
  @mixin inputHome {
@@ -1211,6 +1172,4 @@ footer h6 {
     letter-spacing: 1px;
  }
  */
-/*# sourceMappingURL=estilos.css.map */
-
 /*# sourceMappingURL=estilos.css.map */
