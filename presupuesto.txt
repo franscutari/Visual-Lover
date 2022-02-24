@@ -1,0 +1,29 @@
+
+Buen dia, ¿como estas? en base a nuestra reunion y su interes le envio el detalle del presupuesto de el
+diseño y maquetacion de el sitio con Home y 4 secciones.
+
+Desarrollo:
+- Diseño estetico y funcional. (adaptado a la paleta de colores que a los usuarios 
+mas les favorece, con lineas de comentarios en cada uno de los codigos.)
+- Pagina totalmente Responsive. (su pagina podra adaptarse a todo tipo de dispositivos, 
+PC, tablet, Celulares)
+- Implementacion de Bootstrap para su armado y prototipado.
+- Estructura y maquetado preparado para ser mantenible y actualizable en el tiempo.
+- Consideraciones de accesibilidad. (entre otras cosas, cada seccion estara linkeada)
+- Organizacion e implementacion del SEO. (Posicionamiento en la web)
+- Identidad de marca. (estetica de la pagina web)
+- Material Grafico. (optimizacion de imagenes)
+
+Valor: $38000.
+
+Aclaraciones: 
+- El valor no incluye Hosting y Dominio, seran facturados por el cliente,
+de lo contrario, se le sumara al presupuesto
+- El material grafico, tanto como titulos, textos, imagenes, videos, etc. 
+seran proporcionados por el cliente
+
+Forma de pago:
+Adelanto del 30%. el saldo restante sera entregado al estar la pagina web finalizada 
+
+Ante cualquier duda o consulta estoy a su disposicion.
+Saludos!!

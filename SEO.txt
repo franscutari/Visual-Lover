@@ -1,5 +1,0 @@
-Se le modificaron los titulos, descripcion y se le agregaron etiquetas a cada Html en el Head.
-
-Tambien se le agrego un Mixin, que sustituyo los botones en Contacto 
-un Extend para cambiar una de las imagenes en el Index
-y Map para cambiar los colores.
